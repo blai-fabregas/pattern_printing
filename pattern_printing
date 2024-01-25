@@ -1,0 +1,8 @@
+# outer loop to iterate numbers 0-9
+for num in range (10):
+    # inner loop to iterate from 0 to certain number of the outer loop variable num
+    for n in range (num):
+        print(num, end= " ")
+
+    #printing new line after
+    print("\n")
